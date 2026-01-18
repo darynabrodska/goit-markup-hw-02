@@ -28,6 +28,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -52,6 +53,7 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .card-subtitle {
@@ -62,6 +64,15 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+
+}
+.portfolio-subtitle {
+color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .section-team {
     background-color: #F4F4FD;
@@ -79,6 +90,15 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 
+}
+.portfolio-text {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-align: center;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -106,6 +126,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .contacts-link {
     color: #434455;
@@ -113,6 +134,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 .contacts-link:hover,
@@ -124,7 +146,10 @@ font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
-    color: #F4F4FD;
+    color: #4d5ae5;
     text-transform: uppercase;
     text-decoration: none;
+}
+.footer-logo {
+    color: #F4F4FD;
 }
