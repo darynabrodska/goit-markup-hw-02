@@ -1,6 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
+    background-color: #FFFFFF;
+}
+ul {
+    list-style: none;
 }
 .hero-btn {
     cursor: pointer;
@@ -9,7 +13,9 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -21,6 +27,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -34,8 +41,10 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.44;
+    line-height: 1.07;
     color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .section-title {
     text-align: center;
@@ -51,6 +60,8 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 .section-team {
     background-color: #F4F4FD;
@@ -60,11 +71,12 @@ body {
     background-color: white;
 }
 .card-text {
-    text-align: center;
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 
 }
@@ -72,8 +84,11 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #2E2F42;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .logo-web {
     font-family: "Raleway", sans-serif;
@@ -98,8 +113,18 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    font-style: normal;
 }
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404BBF;
+}
+.footer-logo-web{
+font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #F4F4FD;
+    text-transform: uppercase;
+    text-decoration: none;
 }
